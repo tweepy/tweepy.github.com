@@ -125,6 +125,7 @@ pre code {
 
 .button {
 	text-align: center;
+    padding-bottom: 8px;
 }
 
 #informations .button a {
