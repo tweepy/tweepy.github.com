@@ -1,31 +1,11 @@
-<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">{{ site.name }}</a>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li {% if page.slug == "getting-started" %}class="active"{% endif %}>
-          <a href="/getting-started.html">Getting started</a>
-        </li>
-        <li {% if page.slug == "authentication" %}class="active"{% endif %}>
-          <a href="/authentication.html">Authentication</a>
-        </li>
-	<li>
-          <a href="http://tweepy.readthedocs.org/en/latest/">Documentation</a>
-        </li>
-        <li>
-          <a href="https://github.com/tweepy/tweepy">Source Code</a>
-        </li>
-        <li>
-          <a href="http://discuss.tweepy.org">Tweepy Discourse</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</header>
+<div class="header">
+	<div class="container">
+		<ul class="list-inline">
+			<li><a href="https://dev.twitter.com/"><img src="https://abs.twimg.com/a/1377219190/images/resources/twitter-bird-dark-bgs.png" height="48" width="48"></a></li>
+			<li class="branding"><a href="./">Tweepy</a></li>
+			<li><a href="http://pythonhosted.org/tweepy/html/getting_started.html">Getting Started</a></li>
+			<li><a href="http://pythonhosted.org/tweepy/html/">Documentation</a></li>
+			<li><a href="https://github.com/tweepy/tweepy">Fork on Github</a></li>
+		</ul>
+	</div>
+</div>
